@@ -1,0 +1,8 @@
+region,orders,customers,revenue,aov,return_rate_pct,margin_pct
+Europe,36391,5786,17159148.99,471.52,5.0,38.27
+Asia-Pacific,130,26,228781.21,1759.86,4.5,38.03
+Other,39,17,32259.93,827.18,5.25,43.16
+North America,23,13,12252.11,532.7,5.07,43.55
+Middle East,15,8,12091.36,806.09,4.87,44.74
+Africa,3,3,2046.31,682.1,7.28,45.37
+Latin America,2,2,1411.87,705.93,2.13,42.44

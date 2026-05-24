@@ -1,0 +1,5 @@
+stage,stage_num,users,conversion_from_top,drop_off_pct
+Total Orders Placed,1,36603,100.0,0.0
+Delivered Successfully,2,36603,100.0,0.0
+Had at Least 1 Return,3,19287,52.69,47.31
+Fully Retained (No Return),4,17316,47.31,10.22

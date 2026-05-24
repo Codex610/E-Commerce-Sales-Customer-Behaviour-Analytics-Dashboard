@@ -1,0 +1,77 @@
+/* dashboard/assets/style.css
+   Dark theme styles for the Dash dashboard.
+   Plotly Dash automatically loads everything in the assets/ folder. */
+
+body {
+    background: #0f1117;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e2e8f0;
+}
+
+/* ── dropdown dark theme ────────────────────────────────────── */
+.Select-control {
+    background: #252840 !important;
+    border-color: #3d4266 !important;
+    color: #e2e8f0 !important;
+}
+.Select-value-label,
+.Select-placeholder {
+    color: #e2e8f0 !important;
+}
+.Select-menu-outer {
+    background: #252840 !important;
+    border-color: #3d4266 !important;
+    z-index: 9999;
+}
+.Select-option {
+    background: #252840 !important;
+    color: #e2e8f0 !important;
+}
+.Select-option:hover,
+.Select-option.is-focused {
+    background: #3d4266 !important;
+}
+.Select-arrow-zone .Select-arrow {
+    border-top-color: #94a3b8 !important;
+}
+
+/* ── tab styles ──────────────────────────────────────────────── */
+.tab {
+    background: #1a1d2e !important;
+    border: 1px solid #2d3748 !important;
+    color: #94a3b8 !important;
+    font-size: 0.83rem !important;
+    font-family: Arial, sans-serif !important;
+    padding: 10px 18px !important;
+    border-radius: 6px 6px 0 0 !important;
+    margin-right: 3px !important;
+    transition: all 0.15s;
+}
+.tab:hover:not(.tab--selected) {
+    background: #252840 !important;
+    color: #c4b5fd !important;
+}
+.tab--selected {
+    background: #7c3aed !important;
+    border-color: #7c3aed !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* ── scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0f1117;
+}
+::-webkit-scrollbar-thumb {
+    background: #3d4266;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}

@@ -1,0 +1,31 @@
+{
+    "name": "EcomIQ Dark",
+    "dataColors": [
+        "#7c3aed",
+        "#06b6d4",
+        "#10b981",
+        "#f59e0b",
+        "#ef4444",
+        "#ec4899",
+        "#8b5cf6",
+        "#14b8a6"
+    ],
+    "background": "#0f1117",
+    "foreground": "#e2e8f0",
+    "tableAccent": "#7c3aed",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{"color": {"solid": {"color": "#1a1d2e"}}}],
+                "border": [{"color": {"solid": {"color": "#2d3748"}}}],
+                "fontColor": [{"solid": {"color": "#e2e8f0"}}],
+                "fontSize": [12]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{"color": {"solid": {"color": "#0f1117"}}}]
+            }
+        }
+    }
+}
