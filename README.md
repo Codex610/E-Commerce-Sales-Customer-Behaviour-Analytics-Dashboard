@@ -64,9 +64,13 @@ ecommerce-analytics/
 │
 ├── charts/                     # 15 HTML charts (open in browser)
 │
-├── powerbi/
+├── powerbi dashboard/
 │   ├── POWERBI_GUIDE.md        # Step-by-step Power BI build instructions
-│   └── theme.json              # Dark theme file for Power BI
+│   └── Excecutive summary
+│   └── Customers details
+│   └── Retention dashboard
+│   └── Funnel Chart
+│   └── Regional dashboard
 │
 ├── data/
 │   ├── online_retail_II.xlsx   # ← put the downloaded file here
@@ -121,6 +125,8 @@ Charts are saved to `charts/` — open any `.html` file in your browser.
 ---
 
 ## The dashboard
+
+Public Dashboard link : https://app.powerbi.com/links/CZjLXASQk_?ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f&pbi_source=linkShare
 
 Five tabs with live sidebar filters (date range, region, RFM segment):
 
